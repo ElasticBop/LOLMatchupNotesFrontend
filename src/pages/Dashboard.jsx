@@ -35,7 +35,7 @@ function Dashboard() {
                     </div>
                 ) : ("")}
                 {matchups.length > 0 ? (
-                        <div className = "schedules">
+                        <div className = "matchups">
                             {
                                 matchups.map((matchup) => (<MatchupItem key = {matchup._id} matchup = {matchup}></MatchupItem>))
                             }
