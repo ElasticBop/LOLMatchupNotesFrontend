@@ -1,5 +1,5 @@
 import axios from "axios"
-const API_URL = "http://localhost:8000/api/matchups/"
+const API_URL = "/api/matchups/"
 
 /**
  * Get the matchups for a given champino combo
